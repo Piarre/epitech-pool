@@ -1,0 +1,22 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "c": false,
+    "h": false,
+    "cpp": false
+  },
+  "files.associations": {
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
+    "*.json": "json",
+    "my_print_revalpha.h": "c",
+    "my_putchar.h": "c",
+    "stdio.h": "c",
+    "my_print_digits.h": "c",
+    "cdefs,.h": "c",
+    "my_put_nbr.h": "c",
+    "my_print_combn.h": "c"
+  },
+  "editor.fontSize": 14
+}
