@@ -5,7 +5,7 @@
 ** Lib files for all functions
 */
 #ifndef LIB_H
-#define LIB_H
+    #define LIB_H
 
 void my_swap(int *a, int *b);
 void my_putchar(char c);
