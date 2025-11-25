@@ -4,7 +4,7 @@
 ** File description:
 ** Get a number from a string
 */
-#include "lib.h"
+#include "../include/lib.h"
 #include "stdbool.h"
 #include "limits.h"
 
