@@ -18,18 +18,18 @@ all: $(NAME)
 
 $(NAME):
 	@gcc main.c $(SRC) -o $(NAME) $(INCLUDE) $(CPPFLAGS)
-	@echo "\033[1;34mCompiled successfully 🎩\033[0m"
+	@echo "\033[1;32m✨ Build successful! 🚀\033[0m"
 
 debug:
 	@gcc -g3 main.c $(SRC) -o $(NAME) $(INCLUDE) $(DEBUG)
-	@echo "\033[1;34mCompiled 🎩 (debug)\033[0m"
+	@echo "\033[1;33m🐛 Debug build ready! 🔍\033[0m"
 
 clean:
 	@rm -rf $(NAME)
-	@echo "\033[1;35mCleaned all 🚽\033[0m"
+	@echo "\033[1;35m🧹 Cleaned everything! ✨\033[0m"
 
 re: clean all
 
 start: re
-	@echo "\033[1;36m⬇️  Started ⬇️ \033[0m"
+	@echo "\033[1;36m🎬 Running program... 🎯\033[0m"
 	@./$(NAME)
