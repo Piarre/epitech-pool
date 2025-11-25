@@ -9,19 +9,15 @@
 
 int main(void)
 {
-    char arr[][3] = {"110000000000000000000042", "-100000000000000000000042", "42a43"};
+    int arr[4] = {18, 5, 7, 29};
+    int arrSize = sizeof(arr) / sizeof(arr[0]);
 
-    for (int i = 0; i < 3; i++)
+    my_sort_int_array(&arr[0], arrSize);
+
+    for (int i = 0; i < arrSize; i++)
     {
+        printf("%d - ", arr[i]);
     }
-
-    int rev1 = my_getnbr("110000000000000000000042");
-    int rev2 = my_getnbr("-100000000000000000000042");
-    int rev3 = my_getnbr("42[i]43");
-
-    printf("%d\n", rev1);
-    printf("%d\n", rev2);
-    printf("%d\n", rev3);
 
     return 0;
 };
